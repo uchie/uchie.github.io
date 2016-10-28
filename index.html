@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php include 'connection.php'; ?>
     <html lang="en">
 
     <head>
@@ -75,13 +74,13 @@
                             <li><a href="artikel1.html">Tips Merawat Anak</a>
                                 <br>
                                 <br>
-                                <img src="image/fam12.jpg"></li>
+                                <img src="img/fam12.jpg"></li>
                             <br>
                             <br>
                             <li><a href="">Tips Memasak Sarapan Praktis</a>
                                 <br>
                                 <br>
-                                <img src="image/fam13.jpg"></li>
+                                <img src="img/fam13.jpg"></li>
                         </ul>
 
                     </div>
@@ -95,29 +94,11 @@
         <div id="footer" class="container">
             <div class="row">
                 <div id="footer" class="col-sm-12">
-                    &copy; Uchie
+                    &copy; Uchie Codingmum 2016
                 </div>
             </div>
         </div>
-        <?php
-
-$sql = "SELECT id, name,job,address FROM biodata";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"].  "<br>";
-        echo "name: " . $row["name"].  "<br>";
-        echo "job: " . $row["job"]. "<br>";
-        echo "address: " . $row["address"]. "<br>";
-    }
-} else {
-    echo "0 results";
-}
-$conn->close();
-?>
-            ?>
+       
     </body>
 
     </html>
