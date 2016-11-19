@@ -1,0 +1,88 @@
+body {
+    background-color: #eaeaea;
+}
+
+#header {
+    background-color: #fff;
+    text-align: right;
+    padding: 5px;
+    font-size: 14pt;
+    font-family: arial;
+    border-color: #eb5c03;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    background-color: #fff;
+    height: 80px;
+}
+
+#menu {
+    text-decoration: none;
+    padding-top: 40px;
+    color: #eb5c03;
+}
+
+.menu-header{
+    color: #113285;
+}
+#content{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#content-tarif{
+    background-color: #eaeaea;
+    padding-top: 5px;
+}
+#content-carousel{
+    background-color: eaeaea;
+   
+}
+#tarif{
+    background-color: #f8f6f6;
+    border-style: solid;
+    border-color: #f2ab7e;
+    border-width: thick;
+    height: 480px;
+ 
+}
+.textareatracking{
+    text-align: left;
+    color: gray;
+}
+#tarif h4{
+    color: #113285;
+    padding-top: 10px;
+}
+.tombol-cari{
+    background: #f2ab7e;
+     color: #113285;
+}
+
+.dropdowntarif{
+    padding: 3px;
+    color: #113285;
+    
+}
+.form-dimensi-pjg{
+    text-align: center;
+     color: #113285;
+}
+.form-dimensi-berat{
+    text-align: center;
+     color: #113285;
+    
+}
+.pilihan-service{
+ 
+     color: #113285;
+}
+#footer{
+    background: #113285;
+    height:50px;
+    text-align: center;
+    padding: 10px;
+
+}
+.copyrights{
+    color: #f2ab7e;
+    
+}
